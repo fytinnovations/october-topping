@@ -1,0 +1,12 @@
+{
+    "name": "fytinnovations/october-topping",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fytinnovations",
+            "email": "hello@fytinnovations.com"
+        }
+    ],
+    "require": {}
+}
