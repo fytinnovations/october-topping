@@ -1,12 +1,20 @@
 {
     "name": "fytinnovations/october-topping",
+    "description": "A library which adds some extra flavors to October CMS",
     "type": "library",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Fytinnovations",
             "email": "hello@fytinnovations.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fytinnovations\\OctoberTopping\\": "src"
+        }
+    }
 }
